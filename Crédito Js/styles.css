@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url("Repositório\ de\ Imagens/background.png");
+}
+
+div.main {
+     width: 300px;
+     margin: 100px auto 0px auto;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgba(59, 64, 102, 0.247);
+    height: 50px;
+}
+
+div.formularioRegistro {
+    background-color: rgb(59, 64, 102);
+    opacity: 95%;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+form#formulario {
+    margin: 40px;
+}
+
+input#name {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+div.oferta {
+    background-color: rgb(92, 95, 114);
+    opacity: 95%;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: flex;
+    
+}   
+
+.logo_oferta {
+    height: 100px;
+    width:  100px
+}
+
+.botaoContratarPlano {
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 20px;
+    width:  100px
+}
+
+div.finalização {
+    background-color: rgb(59, 64, 102);
+    opacity: 95%;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+
+}

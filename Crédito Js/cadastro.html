@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crédito para Todxs - Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="formularioRegistro">
+            <h2>Dados Cadastrais</h2>
+            <br>
+            <form onsubmit="cadastrarDados()" id="formulario">
+                <label>Nome</label>
+                <br>
+                <input type="text" name="nome" id="nome" placeholder="Ex: Maria Augusta" required>
+                <br>
+                <label>Sobrenome</label>
+                <br>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Ex: Silveira" required>
+                <br>
+                <label>Data de Nascimento</label>
+                <br>
+                <input type="date" name="dataNascimento" id="dataNascimento" required>
+                <br>
+                <label>Cidade de Residencia</label>
+                <br>
+                <input type="text" name="municipioResidencia" id="municipioResidencia" placeholder="Ex: Blumenau" required>
+                <br>
+                <label>Renda Mensal Líquida</label>
+                <br>
+                <input type="number" name="rendaMensal" id="rendaMensal" placeholder="Ex: 1753,35" required>
+                <br>
+                <br>
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    <script src="CredParaTdxs.js"></script>
+
+</body>
+
+
+</html>
